@@ -52,9 +52,9 @@ dl, ol, ul{ margin-bottom:0;}
 
 header{ padding:32px 0; background:#fff;}
 .navbar, .navbar-brand{ padding:0;}
-.navbar-brand img{ max-width:160px;}
+.navbar-brand img{ max-width:130px;}
 .header-top{ position:absolute; left:0; right:0; top:0; z-index:99; background:none;}
-header .navbar-nav .nav-link { font:500 14px/26px 'Montserrat', sans-serif; color:#000; padding-right:12px; padding-left:12px; border-radius:120px;}
+header .navbar-nav .nav-link { font:500 14px/26px 'Montserrat', sans-serif; color:#000; padding-right:12px; padding-left:12px; border-radius:5px;}
 header .navbar-nav .nav-link.active, header .navbar-nav .nav-link:hover{ background:#137296; color:#fff;}
 header .navbar-nav .nav-item:last-child .nav-link{ box-shadow:0 0 0 1px #137296; padding-right:20px; padding-left:20px;}
 .navbar-toggler{ border-color:#137296; background-color:#fff;}
@@ -64,7 +64,7 @@ header .navbar-nav .nav-item:last-child .nav-link{ box-shadow:0 0 0 1px #137296;
 .home header .navbar-collapse .navbar-nav{ justify-content: space-between; width: 100%;}
 header .navbar-collapse .navbar-nav{justify-content: flex-end; width: 100%;}
 
-.banner{ padding-top:150px; padding-bottom:150px; text-align:center; border-bottom:1px solid #c9c9c9; position:relative; overflow:hidden;}
+.banner{ padding-top:25px; padding-bottom:27px; text-align:center; position:relative; overflow:hidden;}
 .banner > img{ width:100%;}
 .banner-text{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); text-align:center; width:90%;}
 #banner-sec > .container{ position:absolute; left:50%; top:50%; transform:translate(-50%,-40%);}
@@ -95,7 +95,7 @@ body:not(.home) .banner{ padding-top:0; padding-bottom:0; border-bottom:0;}
 h1{ font-size:50px; font-weight: 600;}
 h1.big{font-size:55px; font-weight:900;}
 h2{ font-size:40px; font-weight: 600;}
-h3{ font-size:35px; font-weight: 600;}
+h3, .h3{ font-size:35px; font-weight: 600;}
 h4{ font-size:30px; font-weight: 600;}
 h5{ font-size:24px; font-weight:600;}
 h6{ font-size:20px; font-weight:600;}
@@ -103,16 +103,16 @@ p{ font-size: 16px; color:#6b6b6b;}
 
 .servces-ternd{ display: flex; flex-wrap: wrap;justify-content: space-between;}
 .servces-ternd:after{ display:block;}
-.servces-ternd > div{ border-radius:6px; border:1px solid #ababab; background:#fff; margin:30px 7px 0; float:left; width:calc(25% - 14px); overflow:hidden; transition:all 300ms ease-out 0s;}
-.servces-ternd > div:hover{ box-shadow:0 0 3px #137296;}
-.servces-ternd > div > div{ padding:15px; position:relative; background:#fff; transition:all 300ms ease-out 0s;}
-.servces-ternd > div:hover > div{ margin-top:-50px; padding:15px 15px 65px;}
+.servces-ternd .service-card { display: block; border-radius:6px; border:1px solid #ababab; background:#fff; margin:30px 7px 0; float:left; width:calc(25% - 14px); overflow:hidden; transition:all 300ms ease-out 0s;}
+/*.servces-ternd > div:hover{ box-shadow:0 0 3px #137296;}*/
+.servces-ternd .service-card > div { padding:15px; position:relative; background:#fff; transition:all 300ms ease-out 0s;}
+/*.servces-ternd > div:hover > div{ margin-top:-50px; padding:15px 15px 65px;}*/
 .servces-ternd p{ font-size:15px; line-height:18px; margin-bottom:6px;}
 .servces-ternd p svg{ font-size:14px; color:#333;}
 .servces-ternd h6{ color:#137296;}
 .get-btn{ color:#fff; background:#137296; border:1px solid #137296; border-radius:60px; display:block; font:500 15px/42px 'Montserrat', sans-serif; text-align:center;  box-shadow:0 0 3px #ccc; position:absolute; left:15px; bottom:-55px; right:15px;z-index: -1; opacity:0;}
 .get-btn:hover{ color:#137296; background:#fff;}
-.servces-ternd > div:hover > div .get-btn{ z-index:1; opacity:1; bottom:15px;}
+/*.servces-ternd > div:hover > div .get-btn{ z-index:1; opacity:1; bottom:15px;}*/
 .footer-bottom{ padding:35px 0; background:#f5f5f5; text-align:center;}
 .footer-bottom ul.social{ display:table; margin:30px auto 0;}
 .footer-bottom ul.social li{ display:inline-block; padding:0 3px;}
@@ -122,7 +122,7 @@ p{ font-size: 16px; color:#6b6b6b;}
 .footer-bottom ul.links-nav li+li:before{ content:"|";}
 .footer-bottom p{ color:#000; font:500 14px/16px 'Montserrat', sans-serif;}
 .searchbottom{display: flex;flex-wrap: wrap; justify-content:space-between; border-bottom:2px solid #999; padding-bottom:20px;}
-.searchbottom a{ color:#fff; display:inline-block; border-radius:90px; font:600 14px/56px 'Montserrat', sans-serif; background:#137296; border:1px solid #137296; min-width:280px;}
+.searchbottom a{ color:#fff; display:inline-block; border-radius:5px; font:600 14px/56px 'Montserrat', sans-serif; background:#137296; border:1px solid #137296; min-width:280px;}
 .searchbottom a:hover{ color:#137296; background:#fff;}
 .our-values{ position:relative; background:#f7f7f7; border-radius:6px; padding:30px 12px; box-shadow:0 0 3px #ccc; text-align:center;}
 .our-values:before{ width:102px; height:102px; border-radius:150px; text-align:center; color:#fff; line-height:102px; content:""; background:#0C0;display: block; margin: 0 auto 10px; font-size: 35px; font-weight:600; content: attr(data-title);} 
@@ -291,7 +291,7 @@ header {  padding:20px 0; position:relative;}
 .nav-item{ margin-bottom:1px;}
 header .navbar-nav .nav-item:last-child .nav-link{ margin-top:1px;}
 header .navbar-nav .nav-link{ padding-left:20px; padding-right:20px;}
-.servces-ternd > div{ width:calc(33.33% - 14px);}
+.servces-ternd .service-card{ width:calc(33.33% - 14px);}
 .navbar{ position:inherit;}
 .navbar-collapse{ position:absolute; left:0; right:0; top:100%; margin-top:-20px; z-index:99; background:#fff; padding:0 15px;}
 body:not(.home) header .navbar-collapse{ position:relative; margin-top:0; padding:0;}
@@ -331,7 +331,7 @@ p{ font-size: 16px; color:#6b6b6b;}
 }
 @media only screen and (max-width: 740px) {
 header {    padding: 10px 0;  }
-.servces-ternd > div{ width:calc(50% - 14px);}
+.servces-ternd .service-card{ width:calc(50% - 14px);}
 .searchbottom{ display:block;}
 .navbar-collapse{margin-top: -15px;}
 .our-values{ margin-top:25px;}
@@ -365,9 +365,8 @@ header .form-inline {  width: 40%;}
 h1{ font-size:30px; font-weight: 600;}
 h1.big{font-size:35px; font-weight:900;}
 .mt-100{ margin-top:41px;}
-.servces-ternd > div{ width: calc(50% - 6px); margin:20px 0 0;}
+.servces-ternd .service-card{ width: calc(50% - 6px); margin:20px 0 0;}
 .download-sec {  padding: 50px 10px;}
-.footer-links ul li a{ text-align:center;}
 .footer-bottom ul.links-nav li a {  padding: 0 10px;}
 .box{ margin-top: 20px;}
 header .form-inline {  width:100%;}
