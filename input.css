@@ -32,6 +32,3 @@ body{color: #6b6b6b}
 .acc-label .si{transition: transform 200ms ease;}
 .acc-input:checked ~ .acc-label .si{transform:rotate(45deg);}
 .acc-input:checked ~ .acc-content{max-height:50vh;padding:10px 20px;opacity:1;}
-#header-menu{width:280px;max-width:90%;top:0;bottom:0;right:-200px;opacity:0;z-index:10;pointer-events:none;transition:all 400ms ease;}
-#header-menu-toggle:checked + div #header-menu{right: 0;opacity:1;pointer-events:auto;}
-#header-menu-toggle:checked + div #header-menu-overlay{background-color:rgba(0,0,0,0.3);position:fixed;top:0;left:0;right:0;bottom:0;margin:0;display:block;z-index:10;}
