@@ -3,13 +3,13 @@
 Hello thank you you are very sppedy but there some issues
 
 1- There are some corruptions in the original version of the theme. For example, the theme has expanded. Some shadows have been removed.
-2- I did not want the button added to the right of the logo.
+// 2- I did not want the button added to the right of the logo.
 3- There is a misunderstanding about the log in button. I wanted the button itself to be replaced. You made a dropdown menu.
-4- You have taken the middle search area too high. 1-2-3 boxes are too close to the search area.
+// 4- You have taken the middle search area too high. 1-2-3 boxes are too close to the search area.
 // 5- Logo and menu texts are not aligned.
 // 6- Let's use the Twitter icon as a circle.
 // 7- There should be no menu icon on mobile.
-8- The links in the Popular Service area will be 2 columns on mobile and will be left aligned. 2. They should not slip into the line.
+// 8- The links in the Popular Service area will be 2 columns on mobile and will be left aligned. 2. They should not slip into the line.
 // 9- FAQ and Sitelink search box schemas are not added.
 
 
