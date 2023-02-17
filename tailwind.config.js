@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     extend: {
+        fontFamily: {
+            'sans': ['-apple-system','BlinkMacSystemFont','Arial','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif'],
+        },
         container: {
             center: true,
         },

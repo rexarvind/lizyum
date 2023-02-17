@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -714,6 +714,10 @@ video {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -823,6 +827,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -841,6 +855,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .pr-4 {
@@ -870,16 +888,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -896,13 +904,14 @@ video {
   line-height: 1;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(19 114 150 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-800 {
@@ -944,6 +953,13 @@ html{
 
 body{
   color: #6b6b6b
+}
+
+.login-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 preserveAspectRatio=%27xMidYMid%27 width=%2720%27 height=%2720%27 viewBox=%270 0 20 20%27 stroke=%27none%27 fill=%27%23919191%27%3E %3Cpath d=%27M20.000,16.333 C20.000,18.123 18.406,20.000 16.667,20.000 C16.667,20.000 3.333,20.000 3.333,20.000 C1.594,20.000 -0.000,18.123 -0.000,16.333 C-0.000,12.390 2.594,10.285 6.038,9.445 C4.774,8.918 3.987,7.935 4.000,6.111 C4.024,2.786 6.692,0.010 10.003,0.010 C13.315,0.010 16.000,2.786 16.000,6.111 C16.000,7.936 15.173,8.905 13.896,9.427 C17.373,10.256 20.000,12.364 20.000,16.333 ZM14.000,5.500 C14.000,3.567 12.209,2.000 10.000,2.000 C7.791,2.000 6.000,3.567 6.000,5.500 C6.000,7.433 7.791,9.000 10.000,9.000 C12.209,9.000 14.000,7.433 14.000,5.500 ZM10.000,11.000 C5.830,11.000 2.000,12.255 2.000,15.667 C2.000,16.805 3.275,18.000 4.667,18.000 C4.667,18.000 15.333,18.000 15.333,18.000 C16.725,18.000 18.000,16.805 18.000,15.667 C18.000,12.255 14.170,11.000 10.000,11.000 Z%27 id=%27path-1%27 class=%27cls-2%27 fill-rule=%27evenodd%27/%3E %3C/svg%3E");
 }
 
 .search-input{
@@ -1141,16 +1157,6 @@ body{
   background-color: rgb(19 114 150 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:text-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(19 114 150 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1215,6 +1221,16 @@ body{
     padding-bottom: 5rem;
   }
 
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1254,6 +1270,16 @@ body{
   .lg\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
   }
 
   .lg\:text-6xl {
